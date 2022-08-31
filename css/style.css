@@ -1,0 +1,179 @@
+body {
+	font-family: 'Barlow', sans-serif;
+	width: 960px;
+	margin: 0 auto;
+	background-color:#CCC;
+	text-align:justify;
+	min-height: 1050px;
+	font-size: 14px;
+}
+
+h1 {
+	color:cornflowerblue;
+	font-size: 24px;
+    font-family: 'Barlow', sans-serif;
+}
+h3 {
+	color:cornflowerblue;
+	font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+h2 {
+	color:#000;
+    font-size: 14px;
+    font-family: 'Barlow', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header {
+	display: flex;
+	justify-content:space-around;
+	font-size: medium;
+}
+.header li{
+	list-style-type: none;
+	}
+.header a{
+	text-decoration: none;
+	color: #222;
+	font-size: 18px;
+	position: relative;
+	width: 150px;
+	}
+.header a:hover {
+	background-color: deepskyblue;
+	}
+.sectiongrid {
+	display: grid;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	justify-items: center;
+}
+
+.item {
+	border: 30px solid black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.contenido {
+	background-color:#fff;
+	width:100%;
+	text-align: center;
+	}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:none;	
+}
+
+.logo {
+	box-align: center;
+    float:left;
+	padding-left:25px;
+	padding-bottom:8px;
+}
+
+.form 
+	p { 
+		line-height:1.5em;
+		font-family: 'Barlow', sans-serif;
+		text-align: center;
+
+}
+
+.table {
+	width: 100%;
+	border: 1px solid #000;
+ }
+ th, td {
+	width: 25%;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #000;
+	border-collapse: collapse;
+	padding: 0.3em;
+	caption-side: bottom;
+ }
+ caption {
+	padding: 0.3em;
+	color: #fff;
+	background: #000;
+ }
+ th {
+	background: #eee;
+ }
+ 
+/*.table {
+	align-self: center;
+}
+ 	
+.tr { 
+	line-height:1.5em;
+	font-family: 'Barlow', sans-serif;
+	text-align: center;
+	background-color:lavender
+	}
+*/
+.footer {
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+    justify-content:space-around;
+	border-top: thin solid #090000;
+	padding-top:8px;
+	bottom:0%;
+	clear:both;
+	width: 100%;
+	background-color: #FFF;
+	font-size: 14px;
+ }
+
+.footer 
+    p { 
+	line-height:1.5em;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+	}
+
+input, select, textarea {
+ border: thin gray solid;
+}
+
+.caja {
+	width: 800px;
+	height: auto;
+	background-color: blueviolet;
+	padding: 50px 20px;
+	margin: 25px;
+}
+@media screen and (max-width: 768px) {
+	.footer {
+		font-size: 18px;
+		flex-direction: column;
+	}
+	body {
+		max-width: 100%;
+	}
+	.header {
+		display: block;
+	}
+	.caja{
+		width: auto;
+	}
+	.cajacontenido{
+		width: auto;
+	}
+	.iframe {
+		width: 360px;
+		height: auto;
+	}
+}
