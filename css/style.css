@@ -42,8 +42,7 @@ h2 {
 	width: 150px;
 	}
 .header a:hover {
-	background-color:blueviolet
-	}
+	background-color:honeydew	}
 .sectiongrid {
 	display: grid;
 	grid-column-gap: 10px;
